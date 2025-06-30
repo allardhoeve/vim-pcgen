@@ -1,1 +1,1 @@
-autocmd BufNewFile,BufRead *.lst,*.pcc set ft=pcgen
+au! BufRead,BufNewFile *.lst setfiletype pcgen
